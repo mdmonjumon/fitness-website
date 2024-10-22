@@ -14,6 +14,13 @@ body {
 
 
 /* common shared styles start here */
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
 .btn-primary {
     border-radius: 42px;
     background: rgb(230, 83, 60);
@@ -30,7 +37,12 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.5px;
+}
+
+.section-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
 }
 
 /* common shared styles end here */
@@ -40,13 +52,14 @@ body {
 
 .header-container {
     background: linear-gradient(rgb(17, 17, 17), rgba(17, 17, 17, 0.904), rgb(17, 17, 17));
+    width: 100%;
 }
 
 .header-section {
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
     max-width: calc(100% - 380px);
     margin: 0 auto;
-    padding: 60px 0px 70px;
+    padding-top: 60px;
 }
 
 .navigation-section {
@@ -88,6 +101,8 @@ body {
     padding: 8px 20px;
 }
 
+/* hero section starts here */
+
 .hero-section {
     display: flex;
     justify-content: space-between;
@@ -99,6 +114,16 @@ body {
     flex-direction: column;
     gap: 24px;
     margin-top: 50px;
+}
+
+.hero-section .hero-img-container {
+    background-image: url('../images/hero-img.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 50%;
+    position: relative;
+    height: 580px;
 }
 
 #shape {
@@ -127,16 +152,6 @@ body {
 }
 
 
-
-.hero-section .hero-img-container {
-    background-image: url('../images/hero-img.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    width: 33%;
-    position: relative;
-}
-
 .hero-section .hero-img-container .hero-img-five-hundred {
     font-size: 2.5rem;
     font-weight: 900;
@@ -164,8 +179,8 @@ body {
     background: rgba(255, 255, 255, 0.1);
     padding: 10px 20px;
     position: absolute;
-    top: 80px;
-    right: -130px;
+    top: 160px;
+    right: -120px;
 }
 
 .hero-section .hero-img-container .three-hundred {
@@ -175,8 +190,8 @@ body {
     background: rgba(48, 48, 48, 0.54);
     padding: 20px;
     position: absolute;
-    bottom: 20px;
-    left: -30px;
+    bottom: 65px;
+    left: 100px;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -191,5 +206,47 @@ body {
     ;
 }
 
+/* hero section ends here */
 
 /* header styles end here */
+
+
+/* habits-section styles starts here */
+.habits-section {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    gap: 20px;
+}
+
+.habits-section .card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.habits-section .card-container .card-img img {
+    border: 1px solid wheat;
+    border-radius: 100px;
+}
+
+.habits-section .card-container .card-title {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.habits-section .card-container .card-info {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* habits-section styles end here */

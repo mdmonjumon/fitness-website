@@ -62,7 +62,6 @@ main {
 }
 
 .header-section {
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
     max-width: calc(100% - 380px);
     margin: 0 auto;
     padding-top: 60px;
@@ -72,6 +71,15 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.manu-bar{
+    width: 24px;
+    display: none;
+}
+
+.manu-bar i{
+    color: beige;
 }
 
 .navigation-section h2 {
@@ -280,7 +288,7 @@ main {
 
 }
 
-.extra-mile .extra-maile-img-container {
+.extra-mile .extra-mile-img-container {
     width: 366px;
     height: 312px;
     background-image: url('../images/run.jpg');
@@ -448,7 +456,7 @@ td {
 
 .grid-content {
     position: relative;
-    width: 326.67px;
+    /* width: 326.67px; */
     height: 272px;
 }
 
@@ -517,3 +525,4 @@ td {
 }
 
 /* footer section end here */
+

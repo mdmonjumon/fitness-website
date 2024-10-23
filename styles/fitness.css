@@ -16,7 +16,7 @@ body {
 /* common shared styles start here */
 
 main {
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
     background-color: black;
 }
@@ -73,12 +73,12 @@ main {
     align-items: center;
 }
 
-.menu-bar{
+.menu-bar {
     width: 24px;
     display: none;
 }
 
-.menu-bar i{
+.menu-bar i {
     color: beige;
 }
 
@@ -388,9 +388,8 @@ td {
 
 }
 
-.height,
-.weight,
-.age,
+
+.form-container input,
 .sex,
 .activity {
     display: block;
@@ -477,7 +476,7 @@ td {
 
 /* footer section start here */
 .footer-section {
-    background-color:rgb(26, 26, 26);
+    background-color: rgb(26, 26, 26);
 }
 
 .footer-content {
@@ -525,4 +524,3 @@ td {
 }
 
 /* footer section end here */
-

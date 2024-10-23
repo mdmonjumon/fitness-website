@@ -73,12 +73,12 @@ main {
     align-items: center;
 }
 
-.manu-bar{
+.menu-bar{
     width: 24px;
     display: none;
 }
 
-.manu-bar i{
+.menu-bar i{
     color: beige;
 }
 

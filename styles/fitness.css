@@ -436,21 +436,25 @@ td {
 
 .title {
     color: rgb(255, 255, 255);
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 #trainer {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 1rem;
     font-weight: 400;
 }
 
 .grid-content {
     position: relative;
+    width: 326.67px;
+    height: 272px;
 }
 
 .grid-content img {
+    object-fit: cover;
+    height: 100%;
     width: 100%;
     border-radius: 18px;
 }
@@ -462,3 +466,54 @@ td {
 }
 
 /* Our team section styles ends here */
+
+/* footer section start here */
+.footer-section {
+    background-color:rgb(26, 26, 26);
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-fitness h2 {
+    color: rgb(230, 83, 60);
+    font-size: 4., 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-get-started {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-get-started h4 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+
+.footer-get-started p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.footer-reserved {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 35px 0;
+    text-align: center;
+}
+
+/* footer section end here */
